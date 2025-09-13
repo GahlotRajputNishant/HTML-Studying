@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple User Form</title>
+</head>
+<body>
+  <h2>User Information Form</h2>
+  <form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="3" cols="30" placeholder="Enter your address" required></textarea><br><br>
+    <fieldset>
+      <legend>User Preferences</legend>
+      <label for="subject">Favorite Subject:</label><br>
+      <select id="subject" name="subject">
+        <option value="math">Mathmatics</option>
+        <option value="science">Science</option>
+        <option value="history">History</option>
+        <option value="english">English</option>
+      </select><br><br>
+      <label for="movie">Favorite Movie:</label><br>
+      <select id="movie" name="movie">
+        <option value="3 idiots">Chava</option>
+        <option value="the dark knight">The Dark Knight</option>
+        <option value="interstellar">Interstellar</option>
+        <option value="shawshank">Rana Naidu</option>
+      </select><br><br>
+      <label for="singer">Favorite Singer:</label><br>
+      <select id="singer" name="singer">
+        <option value="jagjit">Jagjit Singh</option>
+        <option value="rafi">Mohammad Rafi</option>
+        <option value="arjit">Arjit Singh</option>
+        <option value="kishore">Kishore Kumar</option>
+      </select><br><br>
+    </fieldset>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>

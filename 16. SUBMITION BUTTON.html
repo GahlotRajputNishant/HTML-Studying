@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>HTML5 Input Types</title>
+</head>
+<body>
+
+ <h2>Input Types Example</h2>
+
+ <form>
+   <label for="date">Select Date:</label><br>
+   <input type="date" id="date" name="date"><br><br>
+
+   <label for="number">Contact Number:</label><br>
+   <input type="number" id="number" name="number" placeholder="Enter a mobile Number"><br><br>
+
+   <label for="range">Select Range (0-100):</label><br>
+   <input type="range" id="range" name="range" min="0" max="100" value="50"
+     oninput="valueDisplay.value = this.value">
+   <output id="valueDisplay">50</output><br><br>
+
+   <label for="email">Enter Email:</label><br>
+   <input type="email" id="email" name="email" placeholder="Enter a Email"><br><br>
+
+   <label for="search">Search Here:</label><br>
+   <input type="search" id="search" name="search" placeholder="Enter for Search"><br><br>
+
+   <label for="subject">Choose Subject:</label><br>
+   <input list="subjects" id="subject" name="subject" placeholder="Select your subject">
+   <datalist id="subjects">
+     <option value="English">
+     <option value="Science">
+     <option value="Mathmatics">
+     <option value="History">
+     <option value="Computer Science">
+   </datalist><br><br>
+
+   <input type="submit" value="Submit">
+ </form>
+
+</body>
+</html>
