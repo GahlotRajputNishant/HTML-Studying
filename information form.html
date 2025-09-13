@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Enhanced User Form</title>
+</head>
+<body>
+ <h2>User Information Form 2</h2>
+ <form action="#" method="post">  
+   <label for="name">Name:</label><br>
+   <input type="text" id="name" name="name" placeholder="Enter your Name"><br><br>
+   <label for="address">Address:</label><br>
+   <textarea id="address" name="address" rows="3" cols="30" required placeholder="Enter your Address"></textarea><br><br>
+   <label for="password">Password:</label><br>
+   <input type="password" id="password" name="password" required placeholder="Enter your Password"><br><br>
+   <label for="subject">Favorite Subject:</label><br>
+   <select id="subject" name="subject">
+     <option value="math">Mathmatics</option>
+     <option value="science">Science</option>
+     <option value="history">History</option>
+     <option value="english">English</option>
+   </select><br><br>
+   <label for="movie">Favorite Movie:</label><br>
+   <select id="movie" name="movie">
+     <option value="chava">Chava</option>
+     <option value="the dark knight">The Dark Knight</option> <!-- Fixed typo -->
+     <option value="interstellar">Interstellar</option>
+     <option value="shawshank">The Shawshank Redemption</option>
+   </select><br><br>
+   <label for="singer">Favorite Singer:</label><br>
+   <select id="singer" name="singer">
+     <option value="kishore">Kishore Kumar</option>
+     <option value="rafi">Mohammad Rafi</option> <!-- Lowercase value for consistency -->
+     <option value="jagjit">Jagjit Singh</option>
+     <option value="arijit">Arijit Singh</option>
+   </select><br><br>
+   <fieldset>
+     <legend>Gender:</legend>
+     <input type="radio" id="male" name="gender" value="male">
+     <label for="male">Male</label><br>
+     <input type="radio" id="female" name="gender" value="female">
+     <label for="female">Female</label><br>
+     <input type="radio" id="other" name="gender" value="other">
+     <label for="other">Other</label><br>
+   </fieldset><br>
+   <fieldset>
+     <legend>Hobbies:</legend>
+     <input type="checkbox" id="reading" name="hobbies" value="reading">
+     <label for="reading">Reading</label><br>
+     <input type="checkbox" id="sports" name="hobbies" value="sports">
+     <label for="sports">Sports</label><br>
+     <input type="checkbox" id="music" name="hobbies" value="music">
+     <label for="music">Music</label><br>
+     <input type="checkbox" id="travel" name="hobbies" value="travel">
+     <label for="travel">Travel</label><br>
+   </fieldset><br>
+   <input type="submit" value="Submit">
+ </form>
+</body>
+</html>
